@@ -37,5 +37,6 @@ select distinct CO2_budget from game;
 ![screenshot](Screenshot9.png)
 
 ### Question 10
+SET @ CO2_left :=(SELECT SUM (CO2_budget-CO2_consumed)FROM game where screen_name ='Ilkka');
 Select screen_name, CO2_budget,CO2_consumed,@CO2_left from game where screen_name = 'Ilkka';
 ![screenshot](Screenshot10.png)
