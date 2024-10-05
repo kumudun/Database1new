@@ -2,7 +2,7 @@
 ## Exercise 2 - Single table queries
 ### Question 1
 select * from goal;
-![screenshot](Screenshot1.png)
+![screenshot](screenshot1.png)
 
 ### Question 2
 select name,type from airport where iso_country ='Fi';
